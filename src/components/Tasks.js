@@ -8,7 +8,6 @@ function Tasks(props) {
             <input className="checkbox" type="checkbox" />
 
             <p className="matter-body1">{task}</p>
-
             <button
               className="matter-button-text matter-error"
               onClick={() => props.handleDeleteTask(index)}
